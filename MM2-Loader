@@ -1,0 +1,11 @@
+repeat
+	task.wait()
+until game:IsLoaded()
+_G.controller = "Legit168"
+_G.rendering = false --false for no rendering (saves gpu)
+_G.fps = 30 --the fps the alts will run at 30 is recomended (helps with not killing cpu)
+
+alts = {
+    alt1 = "FMSv8",--if you dont want all 10 to be filled put none there
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Capy-Control/main/main.lua", true))()
